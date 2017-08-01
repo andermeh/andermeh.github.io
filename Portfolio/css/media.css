@@ -1,0 +1,344 @@
+/* @media screen and (max-width: 1100px){
+	.photo{
+		vertical-align: bottom;
+		display: inline-block; 
+		padding: 100px 0 0 100px;
+		width: 200px;
+	}
+
+	.description{
+		display: inline-block;
+		position: relative;
+		width: 250px;
+		margin-top: 210px;
+	}
+	} */
+
+	@media screen and (max-width: 800px){
+		.right_side_description, .left_side_description{
+			width: 290px;
+		}
+
+		.work_position{
+			font-size: 14px;
+			font-weight: 600;
+			line-height: 30px;
+			padding: 10px 20px;
+		}
+		.company_name{
+			font-size: 14px;
+		}
+
+		.date_of_standing{
+			font-size: 14px;
+			padding: 0 20px;
+			margin: 0;
+		}
+
+		.description{
+			font-size: 12px;
+			line-height: 22px;
+			padding: 10px 20px;
+			margin: 0;
+		}
+
+		.footer_description p{
+			font-size: 14px;
+		}
+		.contacts span{
+			font-size: 20px;
+		}
+		.footer_description span{
+			font-size: 16px;
+		}
+		textarea{
+			height: 130px;
+		}
+		
+	}
+
+	@media screen and (max-width: 768px){
+		.profile_menu{
+			left: -200px;
+			width: 200px;
+		}
+		.profile_menu h2{
+			text-align: center;
+			font-size: 16px;
+		}
+		.profile_menu p{
+			font-size: 14px;
+			line-height: 20px;
+		}
+		.profile_menu a{
+			font-size: 16px;
+			line-height: 50px;
+		}
+		.profile_menu img{
+			width: 100%;
+		}
+		.profile_menu li{
+			height: 50px;
+		}
+		.profile_head{
+			height: 162px;
+			width: 200px;
+		}
+		.profile_head::before{
+			height: 162px;
+			width: 200px;
+		}
+
+		.skill_content{
+			text-align: -webkit-center;
+		}
+		.progressBar{
+			width: 70%;
+			text-align: left;
+		}
+		.vertical_separator{
+			display: none;
+		}
+		.footer_description{
+			margin-top: 20px;
+		}
+	}
+
+	@media screen and (max-width: 750px){
+		.right_side_description, .left_side_description{
+			width: 250px;
+		}
+
+		.work_position{
+			font-family: "RalewaySemiBold";
+			font-size: 13px;
+			line-height: 30px;
+			color: #fff;
+			padding: 10px 10px;
+		}
+		.company_name{
+			font-size: 13px;
+		}
+
+		.date_of_standing{
+			font-size: 13px;
+			padding: 0 10px;
+			margin: 0;
+		}
+
+		.description{
+			font-size: 12px;
+			line-height: 16px;
+			padding: 10px 10px;
+			margin: 0;
+		}
+		.error_block{
+			font-size: 12px;
+		}
+		.description_images{
+			margin-right: 10px;
+		}
+	}
+	@media screen and (max-width: 700px){
+		
+		header h1{
+			font-size: 36px;
+		}
+
+		header p{
+			font-size: 16px;
+		}
+
+		.about_me h2, .work_expirience h2, .education_expirience h2, .my_skills h2, .portfolio h2{
+			font-size: 25px;
+			margin: 0;
+		}
+
+		.about_me p{
+			font-size: 15px;
+		}
+		.description_about_me li{
+			padding: 5;
+		}
+		.about_me li{
+			font-size: 15px;
+			line-height: 40px;
+		}
+
+		.date_of_standing{
+			font-size: 13px;
+			padding: 0 10px;
+			margin: 0;
+		}
+
+		.description{
+			font-size: 12px;
+			line-height: 16px;
+			padding: 10px 10px;
+			margin: 0;
+		}
+		/* .footer_description p{
+			display: block;
+			text-align: center;
+		} */
+		.my_skills h2{
+
+		}
+	}
+
+	@media screen and (max-width: 600px){
+		header h1{
+			font-size: 32px;
+		}
+
+		header p{
+			font-size: 14px;
+		}
+		.right_side_description, .left_side_description{
+			width: 210px;
+		}
+		.tab{
+			margin-left: 50px;
+		}
+		.work_position{
+			font-family: "RalewaySemiBold";
+			font-size: 12px;
+			line-height: 20px;
+			color: #fff;
+			padding: 10px 5px;
+		}
+		.company_name{
+			font-size: 12px;
+		}
+
+		.date_of_standing{
+			font-size: 12px;
+			padding: 0 5px;
+			margin: 0;
+		}
+
+		.description{
+			font-size: 11px;
+			line-height: 16px;
+			padding: 10px 5px;
+			margin: 0;
+		}
+		.progressBar{
+			width: 70%;
+		}
+	}
+
+	@media screen and (max-width: 515px){
+		.right_side_description, .left_side_description{
+			width: 180px;
+		}
+
+		.work_position{
+			display: inline-block;
+			width: 100%;
+			font-family: "RalewaySemiBold";
+			font-size: 11px;
+			line-height: 10px;
+			color: #fff;
+			padding: 5px 5px 0 5px;
+		}
+		.company_name{
+			padding: 0 5px;
+			font-size: 11px;
+		}
+
+		.date_of_standing{
+			font-size: 11px;
+			padding: 0 5px;
+			margin: 0;
+		}
+
+		.description{
+			font-size: 10px;
+			line-height: 13px;
+			padding: 10px 5px;
+			margin: 0;
+		}
+		.footer_description span{
+			font-size: 14px;
+		}
+		.footer_description p{
+			font-size: 12px;
+		}
+		.description_images img{
+			position: relative;
+			top: 10px;
+			height: 25px;
+			width: 25px;
+		}
+	}
+	@media screen and (max-width: 450px){
+		.description_about_me li{
+			padding: 0;
+		}
+		.description{
+			font-size: 9px;
+			line-height: 13px;
+			padding: 5px 5px;
+			margin: 0;
+		}
+		.right_side_description, .left_side_description{
+			width: 170px;
+		}
+
+		.about_me li{
+			font-size: 13px;
+		}
+		.contacts span{
+			font-size: 16px;
+		}
+		input, textarea{
+			font-size: 12px;	
+		}
+		textarea{
+			height: 100px;
+		}
+		.description_images img{
+			position: relative;
+			top: 10px;
+			height: 20px;
+			width: 20px;
+		}
+		.description_images{
+			margin-right: 5px;
+		}
+		.error_block{
+			font-size: 10px;
+		}
+		.progressBar{
+			width: 80%;
+			text-align: left;
+		}
+		.tab{
+			margin-left: 20px;
+		}
+		.tabs span{
+			font-size: 13px;
+		}
+		.sizer4{
+			width: 25%;
+		}
+		.gigante{
+			width: 260px;
+		}
+
+		.footer_description{
+			margin-left: 0;
+		}
+	}
+
+	@media screen and (max-width: 425px){
+		.right_side_description, .left_side_description{
+			width: 150px;
+		}
+	}
+	@media screen and (max-width: 375px){
+	.right_side_description, .left_side_description{
+			width: 120px;
+		}
+	}
